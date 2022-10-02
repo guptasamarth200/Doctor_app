@@ -1,7 +1,6 @@
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:doctor_app/screens/account_page.dart';
 import 'package:doctor_app/screens/booking_page.dart';
-import 'package:doctor_app/screens/home_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../utils/colors.dart';
@@ -20,7 +19,7 @@ class _HomeState extends State<Home> {
   final List<Widget> _pages = [const HomePage(), DoctorPage(), const ChatPage(), const BookingPage(), const AccountPage()];
 
   int _currentIndex = 0;
-  final PageController _pageController = new PageController(initialPage: 0);
+  final PageController _pageController = PageController(initialPage: 0);
 
   @override
   Widget build(BuildContext context) {

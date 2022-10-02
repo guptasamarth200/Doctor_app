@@ -1,9 +1,7 @@
-// import 'package:doctor_app/screens/account_page.dart';
-// import 'package:doctor_app/screens/home.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:page_transition/page_transition.dart';
+
 
 import 'screens/signin_screen.dart';
 
@@ -50,7 +48,7 @@ class SplashScreen extends StatelessWidget {
             const Text( "Medev" ,style: TextStyle(fontSize:50,fontWeight: FontWeight.bold),)
           ],
         ),
-        backgroundColor: Colors.lightBlueAccent,
+        backgroundColor: Colors.cyanAccent ,
         nextScreen: const SignInScreen(),
           splashTransition: SplashTransition.sizeTransition,
           // pageTransitionType: PageTransitionType.downToUp,

@@ -1,4 +1,3 @@
-
 import 'package:doctor_app/screens/signup_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../reusable_widgets/reusable_widget.dart';

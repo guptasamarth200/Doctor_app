@@ -1,4 +1,5 @@
 import 'package:badges/badges.dart';
+import 'package:doctor_app/screens/notification_screen.dart';
 // import 'package:doctor_app/data/json.dart';
 import 'package:doctor_app/widgets/category_box.dart';
 import 'package:doctor_app/widgets/popular_doctor.dart';
@@ -8,6 +9,8 @@ import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 
 import '../data/json.dart';
 import '../utils/colors.dart';
+import 'account_dummy_screen.dart';
+import 'booking_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({ Key? key }) : super(key: key);
@@ -33,7 +36,9 @@ class _HomePageState extends State<HomePage> {
             child: Badge(
               position: BadgePosition.topEnd(top: 7, end: -4),
               badgeContent: const Text('1', style: TextStyle(color: Colors.white),),
-              child: const Icon(Icons.notifications_sharp, color: primary,),
+            child: InkWell(onTap:() {Navigator.push(context, MaterialPageRoute(builder: (context)=>const notification_page()));
+            },
+                  child: const Icon(Icons.notifications_sharp, color: primary,)),
             ),
           )
         ],
@@ -71,17 +76,32 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                 ),
-                const SizedBox(height: 20,),
+                const SizedBox(height:20,),
                 Container(
                   width: double.infinity,
                   padding: const EdgeInsets.all(20),
-                  height: 180,
+                  height: MediaQuery.of(context).size.height*0.19,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     image: const DecorationImage(
                       image: NetworkImage("https://st4.depositphotos.com/2895903/39411/v/950/depositphotos_394113578-stock-illustration-hospital-reception-vector-illustration-cartoon.jpg?forcejpeg=true"),
                       fit: BoxFit.cover,)
                   ),
+                  // child: Stack(
+                  //   children: [
+                  //     SingleChildScrollView(
+                  //       physics: const BouncingScrollPhysics(),
+                  //       child: Column(
+                  //         mainAxisAlignment: MainAxisAlignment.start,
+                  //         children: [
+                  //           SizedBox(
+                  //
+                  //           )
+                  //         ],
+                  //       ),
+                  //     )
+                  //   ],
+                  // ),
                 ),
                 const SizedBox(height: 45,),
                 Container(child: const Text("Recommended Doctors", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),)),
