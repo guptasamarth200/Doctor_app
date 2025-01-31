@@ -34,6 +34,6 @@
 git clone https://github.com/guptasamarth200/Doctor_app.git
 ```
 ## 📽️ Demo Video  
-🎥 [Download & Watch](https://raw.githubusercontent.com/guptasamarth200/Doctor_app/main/assets/images/medev_veideo (1).mp4)
+🎥 [Download & Watch](https://raw.githubusercontent.com/guptasamarth200/Doctor_app/main/assets/images/medev_video.mp4)
 
 
