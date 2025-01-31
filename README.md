@@ -2,7 +2,6 @@
 
 **Doctor App** is a mobile application designed to help users **discover and connect with qualified doctors**, book appointments, and access comprehensive details about doctors' **fees, specialties, and services**. Built using **Flutter** for a smooth and responsive UI, and integrated with **Firebase** for real-time database management and cloud functions.
 
-
 ## 🚀 Features
 
 ✅ **Doctor Discovery** – Search and filter doctors based on specialization, fees, and ratings.  
@@ -33,13 +32,7 @@
 1️⃣ Clone the repository:  
 ```sh
 git clone https://github.com/guptasamarth200/Doctor_app.git
-
 ## 📽️ Demo Video  
-
-
-<video width="100%" controls>
-  <source src="assets/images/medev_veideo (1).mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+🎥 [Download & Watch](https://raw.githubusercontent.com/guptasamarth200/Doctor_app/main/assets/images/medev_veideo (1).mp4)
 
 
