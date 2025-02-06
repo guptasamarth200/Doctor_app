@@ -1,6 +1,6 @@
 ## 📖 Overview
 
-**Doctor App** is a mobile application designed to help users **discover and connect with qualified doctors**, book appointments, and access comprehensive details about doctors' **fees, specialties, and services**. Built using **Flutter** for a smooth and responsive UI, and integrated with **Firebase** for real-time database management and cloud functions.
+**Medi Connect** is a mobile application designed to help users **discover and connect with qualified doctors**, book appointments, and access comprehensive details about doctors' **fees, specialties, and services**. Built using **Flutter** for a smooth and responsive UI, and integrated with **Firebase** for real-time database management and cloud functions.
 
 ## 🚀 Features
 
